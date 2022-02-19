@@ -1,0 +1,29 @@
+@import "./../../styles.scss";
+
+:host {
+  .header_nav {
+    &__container {
+      width: 100vw;
+      height: 8rem;
+      background-color: $nav-base-color;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    &__icon {
+      width: 5rem;
+      height: 5rem;
+      justify-content: flex-start;
+    }
+
+    &__navigation {
+      background-color: hotpink;
+      align-content: flex-end;
+      position: absolute;
+      bottom: 0;
+      width: 100vw;
+      height: 3rem;
+    }
+  }
+}

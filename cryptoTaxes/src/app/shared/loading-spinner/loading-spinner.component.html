@@ -1,1 +1,3 @@
-<img *ngIf="loading" src="../../assets/images/loading.gif" />
+<ng-container *ngIf="isLoading">
+  <span class="loader"></span>
+</ng-container>
