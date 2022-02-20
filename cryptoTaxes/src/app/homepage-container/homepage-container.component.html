@@ -1,1 +1,5 @@
-<app-loading-spinner [isLoading]="true"></app-loading-spinner>
+<app-loading-spinner [isLoading]="!isLoaded"></app-loading-spinner>
+<ng-container *ngIf="isLoaded">
+  <h1>PLACE HOLDER TITLE</h1>
+  <h2>CONTENT</h2>
+</ng-container>

@@ -5,7 +5,6 @@ import { HomepageContainerComponent } from './homepage-container/homepage-contai
 import { TipsComponent } from './shared/tips/tips.component';
 
 const routes: Routes = [
-  // { path: '', component: HeaderNavComponent },
   { path: '', component: HomepageContainerComponent },
   { path: 'tips', component: TipsComponent },
   { path: '**', redirectTo: '' },
