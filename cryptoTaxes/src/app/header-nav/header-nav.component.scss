@@ -18,12 +18,12 @@
     }
 
     &__navigation {
-      background-color: hotpink;
-      align-content: flex-end;
       position: absolute;
       bottom: 0;
       width: 100vw;
       height: 3rem;
+      margin: 0 auto;
+      text-align: center;
     }
   }
 }

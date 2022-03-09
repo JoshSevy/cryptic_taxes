@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homepage-container.component.scss'],
 })
 export class HomepageContainerComponent implements OnInit {
-  isLoaded!: boolean;
+  public loaded: boolean = false;
+  public log!: string;
   constructor() {}
 
   ngOnInit(): void {
-    this.isLoaded = true;
+    this.loaded = false;
+    console.log("%cFun Stuff", "color: red; font-size: 20px; text-decoration: underline;");
   }
 }
