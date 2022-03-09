@@ -27,10 +27,11 @@
     }
 
     &__input {
-      width: 25%;
+      width: 18rem;
       height: 2rem;
-      margin-bottom: .5rem;
-      justify-content: end;
+      position: absolute;
+      right: .25rem;
+      top: .25rem;
     }
   }
 }
