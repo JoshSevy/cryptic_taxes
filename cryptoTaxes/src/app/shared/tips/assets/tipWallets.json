@@ -1,0 +1,60 @@
+{
+  "helium": {
+    "name": "Helium",
+    "icon": "./assets/walletIcons/hnt.svg",
+    "image": "./assets/wallets/HNTTip.png",
+    "walletAddress": "137Eu99UptBn9ky1iuP44Y8mbBX48mGFYfU6A79itvoJ1NHAKgw"
+  },
+  "bitcoin": {
+    "name": "Bitcoin",
+    "icon": "./assets/walletIcons/btc.png",
+    "image": "./assets/wallets/BTCTip.png",
+    "walletAddress": "bc1qgf4hyqn3kzkqn4x2t2wprxtkgawfa8y7uewdxq"
+  },
+  "ethereum": {
+    "name": "Ethereum",
+    "icon": "./assets/walletIcons/eth.png",
+    "image": "./assets/wallets/ETHTip.png",
+    "walletAddress": "0xFa956BEAb2E8b2110E6898DF3e2E9C1C06443DDd"
+  },
+  "litecoin": {
+    "name": "Litecoin",
+    "icon": "./assets/walletIcons/ltc.png",
+    "image": "./assets/wallets/LTCTip.png",
+    "walletAddress": "ltc1qndenf0glmre6uuxy7gadpp7kgrtgem9mzhnd6d"
+  },
+  "cronos": {
+    "name": "CRO",
+    "icon": "./assets/walletIcons/cro.png",
+    "image": "./assets/wallets/CROTip.png",
+    "walletAddress": "0xFa956BEAb2E8b2110E6898DF3e2E9C1C06443DDd"
+  },
+  "USDC": {
+    "name": "USDC",
+    "icon": "./assets/walletIcons/usdc.png",
+    "image": "./assets/wallets/USDCTip.png",
+    "walletAddress": "0xFa956BEAb2E8b2110E6898DF3e2E9C1C06443DDd"
+  },
+  "shiba inu": {
+    "name": "SHIBA",
+    "icon": ".assets/walletIcons/shib.png",
+    "image": "./assets/wallets/SHIBATip.png",
+    "walletAddress": "0xFa956BEAb2E8b2110E6898DF3e2E9C1C06443DDd"
+  },
+  {
+    "matic": {
+      "name": "Polygon",
+      "icon": "./assets/walletIcons/matic.png",
+      "image": "./assets/wallets/MATICTip.png",
+      "walletAddress": "0xFa956BEAb2E8b2110E6898DF3e2E9C1C06443DDd"
+    }
+  },
+  {
+    "doge": {
+      "name": "Dogecoin",
+      "icon": "./assets/walletIcons/doge.png",
+      "image": "./assets/wallets/DOGETip.png",
+      "walletAddress": "DJiBmLJNmDye4biejFwFhAY2kuhUe4ghTV"
+    }
+  }
+}

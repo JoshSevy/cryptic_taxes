@@ -2,19 +2,21 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderNavModule } from './header-nav/header-nav.module';
 import { AppComponent } from './app.component';
-import { HeaderNavComponent } from './header-nav/header-nav.component';
+import { HomepageModule } from './homepage-container/homepage.module';
+import { FooterModule } from './footer/footer.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderNavComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FooterModule,
+    HeaderNavModule,
+    HomepageModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

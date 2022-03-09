@@ -1,0 +1,5 @@
+<app-loading-spinner [isLoading]="!loaded"></app-loading-spinner>
+<div class="homepage__container" *ngIf="loaded">
+  <h1>{{ log }}</h1>
+  <h2>CONTENT</h2>
+</div>
