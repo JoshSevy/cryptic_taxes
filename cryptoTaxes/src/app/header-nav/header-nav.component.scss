@@ -25,5 +25,12 @@
       margin: 0 auto;
       text-align: center;
     }
+
+    &__input {
+      width: 25%;
+      height: 2rem;
+      margin-bottom: .5rem;
+      justify-content: end;
+    }
   }
 }
